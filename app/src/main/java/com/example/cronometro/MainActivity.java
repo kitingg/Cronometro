@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.os.SystemClock;
 import android.view.View;
 import android.widget.Chronometer;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         chronometer = findViewById(R.id.chronometer);
-        chronometer.setFormat("Tiempo: %s");
+        chronometer.setFormat("%s");
 
 
     }
